@@ -35,6 +35,7 @@ public class PriceResource {
 
     String lastMessageType = "JH";
     String lastMessageXML = "";
+    String validateMessage = "False";
     
     @Inject
     PriceConsumer consumer;
@@ -51,11 +52,19 @@ public class PriceResource {
     @Path("message")
     public void message(
             @QueryParam("messagename") String messageName,
+            @QueryParam("validateCB") String messageValidate,
             @QueryParam("messagexml") String messageXml) {
         lastMessageType = messageName;
+        validateMessage = messageValidate;
         lastMessageXML  = messageXml;
-        System.out.println("Message Name ="+messageName);
-        System.out.println("Message XML  ="+messageXml);
+        System.out.println("Message Name      ="+messageName);
+        System.out.println("Message Validate  ="+messageValidate);
+        System.out.println("Message XML       ="+messageXml);
+        if ("True".equals(messageValidate)) {
+            System.out.println("Validate the message");
+        } else {
+            System.out.println("Don't validate the message");            
+        }
     }
 
     @GET
