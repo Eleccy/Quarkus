@@ -1,0 +1,627 @@
+
+E:\Projects\BAE\Quarkus\SAM\scmWebForms>mvnw quarkus:list-extensions
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------< org.acme:scmWebforms >------------------------
+[INFO] Building scmWebforms 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- quarkus-maven-plugin:3.12.3:list-extensions (default-cli) @ scmWebforms ---
+[INFO] Current Quarkus extensions available:
+[INFO]
+[INFO] Ô£¼ ArtifactId                                         Extension Name
+[INFO] Ô£¼ blaze-persistence-integration-quarkus-3            Blaze-Persistence
+[INFO] Ô£¼ camel-quarkus-activemq                             Camel ActiveMQ
+[INFO] Ô£¼ camel-quarkus-amqp                                 Camel AMQP
+[INFO] Ô£¼ camel-quarkus-arangodb                             Camel ArangoDb
+[INFO] Ô£¼ camel-quarkus-as2                                  Camel AS2
+[INFO] Ô£¼ camel-quarkus-atom                                 Camel Atom
+[INFO] Ô£¼ camel-quarkus-attachments                          Camel Attachments
+[INFO] Ô£¼ camel-quarkus-avro                                 Camel Avro
+[INFO] Ô£¼ camel-quarkus-aws-bedrock                          Camel AWS Bedrock
+[INFO] Ô£¼ camel-quarkus-aws2-athena                          Camel AWS 2 Athena
+[INFO] Ô£¼ camel-quarkus-aws2-cw                              Camel AWS 2 CloudWatch
+[INFO] Ô£¼ camel-quarkus-aws2-ddb                             Camel AWS 2 DynamoDB
+[INFO] Ô£¼ camel-quarkus-aws2-ec2                             Camel AWS 2 Elastic Compute Cloud (EC2)
+[INFO] Ô£¼ camel-quarkus-aws2-ecs                             Camel AWS 2 Elastic Container Service (ECS)
+[INFO] Ô£¼ camel-quarkus-aws2-eks                             Camel AWS 2 Elastic Kubernetes Service (EKS)
+[INFO] Ô£¼ camel-quarkus-aws2-eventbridge                     Camel AWS 2 Eventbridge
+[INFO] Ô£¼ camel-quarkus-aws2-iam                             Camel AWS 2 Identity and Access Management (IAM)
+[INFO] Ô£¼ camel-quarkus-aws2-kinesis                         Camel AWS 2 Kinesis
+[INFO] Ô£¼ camel-quarkus-aws2-kms                             Camel AWS 2 Key Management Service (KMS)
+[INFO] Ô£¼ camel-quarkus-aws2-lambda                          Camel AWS 2 Lambda
+[INFO] Ô£¼ camel-quarkus-aws2-mq                              Camel AWS 2 MQ
+[INFO] Ô£¼ camel-quarkus-aws2-msk                             Camel AWS 2 Managed Streaming for Apache Kafka (MSK)
+[INFO] Ô£¼ camel-quarkus-aws2-s3                              Camel AWS 2 S3 Storage Service
+[INFO] Ô£¼ camel-quarkus-aws2-ses                             Camel AWS 2 Simple Email Service (SES)
+[INFO] Ô£¼ camel-quarkus-aws2-sns                             Camel AWS 2 Simple Notification System (SNS)
+[INFO] Ô£¼ camel-quarkus-aws2-sqs                             Camel AWS 2 Simple Queue Service (SQS)
+[INFO] Ô£¼ camel-quarkus-aws2-sts                             Camel AWS 2 Security Token Service (STS)
+[INFO] Ô£¼ camel-quarkus-aws2-translate                       Camel AWS 2 Translate
+[INFO] Ô£¼ camel-quarkus-azure-eventhubs                      Camel Azure Event Hubs
+[INFO] Ô£¼ camel-quarkus-azure-storage-blob                   Camel Azure Storage Blob Service
+[INFO] Ô£¼ camel-quarkus-azure-storage-queue                  Camel Azure Storage Queue Service
+[INFO] Ô£¼ camel-quarkus-base64                               Camel Base64
+[INFO] Ô£¼ camel-quarkus-bean                                 Camel Bean
+[INFO] Ô£¼ camel-quarkus-bean-validator                       Camel Bean Validator
+[INFO] Ô£¼ camel-quarkus-bindy                                Camel Bindy
+[INFO] Ô£¼ camel-quarkus-box                                  Camel Box
+[INFO] Ô£¼ camel-quarkus-braintree                            Camel Braintree
+[INFO] Ô£¼ camel-quarkus-browse                               Camel Browse
+[INFO] Ô£¼ camel-quarkus-caffeine                             Camel Caffeine Cache
+[INFO] Ô£¼ camel-quarkus-cassandraql                          Camel Cassandra CQL
+[INFO] Ô£¼ camel-quarkus-cbor                                 Camel CBOR
+[INFO] Ô£¼ camel-quarkus-cloudevents                          Camel Cloudevents
+[INFO] Ô£¼ camel-quarkus-consul                               Camel Consul
+[INFO] Ô£¼ camel-quarkus-controlbus                           Camel Control Bus
+[INFO] Ô£¼ camel-quarkus-core                                 Camel Core
+[INFO] Ô£¼ camel-quarkus-couchdb                              Camel CouchDB
+[INFO] Ô£¼ camel-quarkus-cron                                 Camel Cron
+[INFO] Ô£¼ camel-quarkus-crypto                               Camel Crypto (JCE)
+[INFO] Ô£¼ camel-quarkus-csimple                              Camel CSimple
+[INFO] Ô£¼ camel-quarkus-csv                                  Camel CSV
+[INFO] Ô£¼ camel-quarkus-cxf-soap                             Camel CXF
+[INFO] Ô£¼ camel-quarkus-dataformat                           Camel Data Format
+[INFO] Ô£¼ camel-quarkus-dataset                              Camel Dataset
+[INFO] Ô£¼ camel-quarkus-datasonnet                           Camel DataSonnet
+[INFO] Ô£¼ camel-quarkus-debezium-mongodb                     Camel Debezium MongoDB Connector
+[INFO] Ô£¼ camel-quarkus-debezium-mysql                       Camel Debezium MySQL Connector
+[INFO] Ô£¼ camel-quarkus-debezium-postgres                    Camel Debezium PostgresSQL Connector
+[INFO] Ô£¼ camel-quarkus-debezium-sqlserver                   Camel Debezium SQL Server Connector
+[INFO] Ô£¼ camel-quarkus-debug                                Camel Debug
+[INFO] Ô£¼ camel-quarkus-digitalocean                         Camel DigitalOcean
+[INFO] Ô£¼ camel-quarkus-direct                               Camel Direct
+[INFO] Ô£¼ camel-quarkus-disruptor                            Camel Disruptor
+[INFO] Ô£¼ camel-quarkus-dropbox                              Camel Dropbox
+[INFO] Ô£¼ camel-quarkus-elasticsearch-rest-client            Camel Elasticsearch Low level Rest Client
+[INFO] Ô£¼ camel-quarkus-exec                                 Camel Exec
+[INFO] Ô£¼ camel-quarkus-fhir                                 Camel FHIR
+[INFO] Ô£¼ camel-quarkus-file                                 Camel File
+[INFO] Ô£¼ camel-quarkus-file-cluster-service                 Camel File Cluster Service
+[INFO] Ô£¼ camel-quarkus-file-watch                           Camel File Watch
+[INFO] Ô£¼ camel-quarkus-flatpack                             Camel Flatpack
+[INFO] Ô£¼ camel-quarkus-fop                                  Camel FOP
+[INFO] Ô£¼ camel-quarkus-freemarker                           Camel Freemarker
+[INFO] Ô£¼ camel-quarkus-ftp                                  Camel FTP
+[INFO] Ô£¼ camel-quarkus-geocoder                             Camel Geocoder
+[INFO] Ô£¼ camel-quarkus-git                                  Camel Git
+[INFO] Ô£¼ camel-quarkus-github                               Camel GitHub
+[INFO] Ô£¼ camel-quarkus-google-bigquery                      Camel Google BigQuery
+[INFO] Ô£¼ camel-quarkus-google-calendar                      Camel Google Calendar
+[INFO] Ô£¼ camel-quarkus-google-drive                         Camel Google Drive
+[INFO] Ô£¼ camel-quarkus-google-mail                          Camel Google Mail
+[INFO] Ô£¼ camel-quarkus-google-pubsub                        Camel Google Pubsub
+[INFO] Ô£¼ camel-quarkus-google-sheets                        Camel Google Sheets
+[INFO] Ô£¼ camel-quarkus-google-storage                       Camel Google Storage
+[INFO] Ô£¼ camel-quarkus-graphql                              Camel GraphQL
+[INFO] Ô£¼ camel-quarkus-grok                                 Camel Grok
+[INFO] Ô£¼ camel-quarkus-groovy                               Camel Groovy
+[INFO] Ô£¼ camel-quarkus-groovy-dsl                           Camel Groovy DSL
+[INFO] Ô£¼ camel-quarkus-grpc                                 Camel gRPC
+[INFO] Ô£¼ camel-quarkus-gson                                 Camel Gson
+[INFO] Ô£¼ camel-quarkus-hazelcast                            Camel Hazelcast Atomic Number
+[INFO] Ô£¼ camel-quarkus-headersmap                           Camel Headersmap
+[INFO] Ô£¼ camel-quarkus-hl7                                  Camel HL7
+[INFO] Ô£¼ camel-quarkus-http                                 Camel HTTP
+[INFO] Ô£¼ camel-quarkus-ical                                 Camel iCal
+[INFO] Ô£¼ camel-quarkus-infinispan                           Camel Infinispan
+[INFO] Ô£¼ camel-quarkus-influxdb                             Camel InfluxDB
+[INFO] Ô£¼ camel-quarkus-jackson                              Camel Jackson
+[INFO] Ô£¼ camel-quarkus-jackson-avro                         Camel Avro Jackson
+[INFO] Ô£¼ camel-quarkus-jackson-protobuf                     Camel Protobuf Jackson
+[INFO] Ô£¼ camel-quarkus-jacksonxml                           Camel JacksonXML
+[INFO] Ô£¼ camel-quarkus-jasypt                               Camel Jasypt
+[INFO] Ô£¼ camel-quarkus-java-joor-dsl                        Camel Java jOOR DSL
+[INFO] Ô£¼ camel-quarkus-jaxb                                 Camel JAXB
+[INFO] Ô£¼ camel-quarkus-jcache                               Camel JCache
+[INFO] Ô£¼ camel-quarkus-jdbc                                 Camel JDBC
+[INFO] Ô£¼ camel-quarkus-jfr                                  Camel Jfr
+[INFO] Ô£¼ camel-quarkus-jira                                 Camel Jira
+[INFO] Ô£¼ camel-quarkus-jms                                  Camel JMS
+[INFO] Ô£¼ camel-quarkus-jolt                                 Camel JOLT
+[INFO] Ô£¼ camel-quarkus-joor                                 Camel jOOR
+[INFO] Ô£¼ camel-quarkus-jpa                                  Camel JPA
+[INFO] Ô£¼ camel-quarkus-jq                                   Camel JQ
+[INFO] Ô£¼ camel-quarkus-jsch                                 Camel SCP
+[INFO] Ô£¼ camel-quarkus-jsh-dsl                              Camel JavaShell DSL
+[INFO] Ô£¼ camel-quarkus-jslt                                 Camel JSLT
+[INFO] Ô£¼ camel-quarkus-json-validator                       Camel JSON Schema Validator
+[INFO] Ô£¼ camel-quarkus-jsonata                              Camel JSONATA
+[INFO] Ô£¼ camel-quarkus-jsonb                                Camel JSON-B
+[INFO] Ô£¼ camel-quarkus-jsonpath                             Camel JSON Path
+[INFO] Ô£¼ camel-quarkus-jt400                                Camel JT400
+[INFO] Ô£¼ camel-quarkus-jta                                  Camel JTA
+[INFO] Ô£¼ camel-quarkus-kafka                                Camel Kafka
+[INFO] Ô£¼ camel-quarkus-kamelet                              Camel Kamelet
+[INFO] Ô£¼ camel-quarkus-knative                              Camel Knative
+[INFO] Ô£¼ camel-quarkus-knative-consumer                     Camel Knative Consumer
+[INFO] Ô£¼ camel-quarkus-knative-producer                     Camel Knative Producer
+[INFO] Ô£¼ camel-quarkus-kotlin                               Camel Kotlin
+[INFO] Ô£¼ camel-quarkus-kotlin-dsl                           Camel Kotlin DSL
+[INFO] Ô£¼ camel-quarkus-kubernetes                           Camel Kubernetes
+[INFO] Ô£¼ camel-quarkus-kubernetes-cluster-service           Camel Kubernetes Cluster Service
+[INFO] Ô£¼ camel-quarkus-kudu                                 Camel Kudu
+[INFO] Ô£¼ camel-quarkus-langchain4j-chat                     Camel langChain4j Chat
+[INFO] Ô£¼ camel-quarkus-language                             Camel Language
+[INFO] Ô£¼ camel-quarkus-ldap                                 Camel LDAP
+[INFO] Ô£¼ camel-quarkus-leveldb                              Camel LevelDB
+[INFO] Ô£¼ camel-quarkus-log                                  Camel Log
+[INFO] Ô£¼ camel-quarkus-lra                                  Camel LRA
+[INFO] Ô£¼ camel-quarkus-lumberjack                           Camel Lumberjack
+[INFO] Ô£¼ camel-quarkus-lzf                                  Camel LZF Deflate Compression
+[INFO] Ô£¼ camel-quarkus-mail                                 Camel Mail
+[INFO] Ô£¼ camel-quarkus-management                           Camel Management
+[INFO] Ô£¼ camel-quarkus-mapstruct                            Camel MapStruct
+[INFO] Ô£¼ camel-quarkus-master                               Camel Master
+[INFO] Ô£¼ camel-quarkus-micrometer                           Camel Micrometer
+[INFO] Ô£¼ camel-quarkus-microprofile-fault-tolerance         Camel Microprofile Fault Tolerance
+[INFO] Ô£¼ camel-quarkus-microprofile-health                  Camel MicroProfile Health
+[INFO] Ô£¼ camel-quarkus-minio                                Camel Minio
+[INFO] Ô£¼ camel-quarkus-mllp                                 Camel MLLP
+[INFO] Ô£¼ camel-quarkus-mock                                 Camel Mock
+[INFO] Ô£¼ camel-quarkus-mongodb                              Camel MongoDB
+[INFO] Ô£¼ camel-quarkus-mongodb-gridfs                       Camel MongoDB GridFS
+[INFO] Ô£¼ camel-quarkus-mustache                             Camel Mustache
+[INFO] Ô£¼ camel-quarkus-mybatis                              Camel MyBatis
+[INFO] Ô£¼ camel-quarkus-nats                                 Camel Nats
+[INFO] Ô£¼ camel-quarkus-netty                                Camel Netty
+[INFO] Ô£¼ camel-quarkus-netty-http                           Camel Netty HTTP
+[INFO] Ô£¼ camel-quarkus-nitrite                              Camel Nitrite
+[INFO] Ô£¼ camel-quarkus-oaipmh                               Camel OAI-PMH
+[INFO] Ô£¼ camel-quarkus-ognl                                 Camel OGNL
+[INFO] Ô£¼ camel-quarkus-olingo4                              Camel Olingo4
+[INFO] Ô£¼ camel-quarkus-openapi-java                         Camel OpenAPI Java
+[INFO] Ô£¼ camel-quarkus-openstack                            Camel OpenStack
+[INFO] Ô£¼ camel-quarkus-opentelemetry                        Camel OpenTelemetry
+[INFO] Ô£¼ camel-quarkus-optaplanner                          Camel OptaPlanner
+[INFO] Ô£¼ camel-quarkus-paho                                 Camel Paho
+[INFO] Ô£¼ camel-quarkus-paho-mqtt5                           Camel Paho MQTT5
+[INFO] Ô£¼ camel-quarkus-pdf                                  Camel PDF
+[INFO] Ô£¼ camel-quarkus-pg-replication-slot                  Camel PostgresSQL Replication Slot
+[INFO] Ô£¼ camel-quarkus-pgevent                              Camel PostgresSQL Event
+[INFO] Ô£¼ camel-quarkus-pinecone                             Camel Pinecone
+[INFO] Ô£¼ camel-quarkus-platform-http                        Camel Platform HTTP
+[INFO] Ô£¼ camel-quarkus-protobuf                             Camel Protobuf
+[INFO] Ô£¼ camel-quarkus-pubnub                               Camel PubNub
+[INFO] Ô£¼ camel-quarkus-qdrant                               Camel Qdrant
+[INFO] Ô£¼ camel-quarkus-quartz                               Camel Quartz
+[INFO] Ô£¼ camel-quarkus-qute                                 Camel Qute
+[INFO] Ô£¼ camel-quarkus-reactive-executor                    Camel Reactive Executor
+[INFO] Ô£¼ camel-quarkus-reactive-streams                     Camel Reactive Streams
+[INFO] Ô£¼ camel-quarkus-ref                                  Camel Ref
+[INFO] Ô£¼ camel-quarkus-rest                                 Camel Rest
+[INFO] Ô£¼ camel-quarkus-rest-openapi                         Camel REST OpenApi
+[INFO] Ô£¼ camel-quarkus-rss                                  Camel RSS
+[INFO] Ô£¼ camel-quarkus-saga                                 Camel Saga
+[INFO] Ô£¼ camel-quarkus-salesforce                           Camel Salesforce
+[INFO] Ô£¼ camel-quarkus-sap-netweaver                        Camel SAP NetWeaver
+[INFO] Ô£¼ camel-quarkus-saxon                                Camel XQuery
+[INFO] Ô£¼ camel-quarkus-scheduler                            Camel Scheduler
+[INFO] Ô£¼ camel-quarkus-seda                                 Camel SEDA
+[INFO] Ô£¼ camel-quarkus-servicenow                           Camel ServiceNow
+[INFO] Ô£¼ camel-quarkus-servlet                              Camel Servlet
+[INFO] Ô£¼ camel-quarkus-shiro                                Camel Shiro
+[INFO] Ô£¼ camel-quarkus-sjms                                 Camel Simple JMS
+[INFO] Ô£¼ camel-quarkus-sjms2                                Camel Simple JMS2
+[INFO] Ô£¼ camel-quarkus-slack                                Camel Slack
+[INFO] Ô£¼ camel-quarkus-smallrye-reactive-messaging          Camel SmallRye Reactive Messaging
+[INFO] Ô£¼ camel-quarkus-smb                                  Camel SMB
+[INFO] Ô£¼ camel-quarkus-snakeyaml                            Camel SnakeYAML
+[INFO] Ô£¼ camel-quarkus-soap                                 Camel SOAP dataformat
+[INFO] Ô£¼ camel-quarkus-splunk                               Camel Splunk
+[INFO] Ô£¼ camel-quarkus-splunk-hec                           Camel Splunk HEC
+[INFO] Ô£¼ camel-quarkus-spring-rabbitmq                      Camel Spring RabbitMQ
+[INFO] Ô£¼ camel-quarkus-sql                                  Camel SQL
+[INFO] Ô£¼ camel-quarkus-ssh                                  Camel SSH
+[INFO] Ô£¼ camel-quarkus-stax                                 Camel StAX
+[INFO] Ô£¼ camel-quarkus-stream                               Camel Stream
+[INFO] Ô£¼ camel-quarkus-stringtemplate                       Camel String Template
+[INFO] Ô£¼ camel-quarkus-swift                                Camel SWIFT
+[INFO] Ô£¼ camel-quarkus-syslog                               Camel Syslog
+[INFO] Ô£¼ camel-quarkus-tarfile                              Camel Tar File
+[INFO] Ô£¼ camel-quarkus-telegram                             Camel Telegram
+[INFO] Ô£¼ camel-quarkus-threadpoolfactory-vertx              Camel ThreadPoolFactory Vert.x
+[INFO] Ô£¼ camel-quarkus-tika                                 Camel Tika
+[INFO] Ô£¼ camel-quarkus-timer                                Camel Timer
+[INFO] Ô£¼ camel-quarkus-twilio                               Camel Twilio
+[INFO] Ô£¼ camel-quarkus-twitter                              Camel Twitter
+[INFO] Ô£¼ camel-quarkus-univocity-parsers                    Camel uniVocity CSV
+[INFO] Ô£¼ camel-quarkus-validator                            Camel Validator
+[INFO] Ô£¼ camel-quarkus-velocity                             Camel Velocity
+[INFO] Ô£¼ camel-quarkus-vertx                                Camel Vert.x
+[INFO] Ô£¼ camel-quarkus-vertx-http                           Camel Vert.x HTTP Client
+[INFO] Ô£¼ camel-quarkus-vertx-websocket                      Camel Vert.x WebSocket
+[INFO] Ô£¼ camel-quarkus-wasm                                 Camel Wasm
+[INFO] Ô£¼ camel-quarkus-weather                              Camel Weather
+[INFO] Ô£¼ camel-quarkus-xchange                              Camel XChange
+[INFO] Ô£¼ camel-quarkus-xj                                   Camel XJ
+[INFO] Ô£¼ camel-quarkus-xml-io-dsl                           Camel XML IO DSL
+[INFO] Ô£¼ camel-quarkus-xml-jaxb                             Camel XML JAXB
+[INFO] Ô£¼ camel-quarkus-xml-jaxp                             Camel XML JAXP
+[INFO] Ô£¼ camel-quarkus-xmlsecurity                          Camel XML Security Sign
+[INFO] Ô£¼ camel-quarkus-xpath                                Camel XPath
+[INFO] Ô£¼ camel-quarkus-xslt                                 Camel XSLT
+[INFO] Ô£¼ camel-quarkus-xslt-saxon                           Camel XSLT Saxon
+[INFO] Ô£¼ camel-quarkus-yaml-dsl                             Camel YAML DSL
+[INFO] Ô£¼ camel-quarkus-yaml-io                              Camel YAML IO
+[INFO] Ô£¼ camel-quarkus-zendesk                              Camel Zendesk
+[INFO] Ô£¼ camel-quarkus-zip-deflater                         Camel Zip Deflate Compression
+[INFO] Ô£¼ camel-quarkus-zipfile                              Camel Zip File
+[INFO]   camunda-bpm-quarkus-engine                         Camunda Platform 7 Engine
+[INFO] Ô£¼ cassandra-quarkus-client                           DataStax Apache Cassandra client
+[INFO]   citrus-quarkus                                     Citrus
+[INFO] Ô£¼ debezium-quarkus-outbox                            Debezium Quarkus Outbox
+[INFO] Ô£¼ debezium-quarkus-outbox-reactive                   Debezium Quarkus Outbox Reactive
+[INFO]   myfaces-quarkus                                    MyFaces
+[INFO] Ô£¼ quarkus-agroal                                     Agroal - Database connection pool
+[INFO]   quarkus-amazon-alexa                               Amazon Alexa
+[INFO] Ô£¼ quarkus-amazon-cloudwatch                          Amazon CloudWatch
+[INFO] Ô£¼ quarkus-amazon-cloudwatchlogs                      Amazon CloudWatch Logs
+[INFO] Ô£¼ quarkus-amazon-cognito-user-pools                  Amazon Cognito User Pools
+[INFO] Ô£¼ quarkus-amazon-crt                                 Aws Crt
+[INFO] Ô£¼ quarkus-amazon-dynamodb                            Amazon DynamoDB
+[INFO] Ô£¼ quarkus-amazon-dynamodb-enhanced                   Amazon DynamoDB Enhanced
+[INFO] Ô£¼ quarkus-amazon-eventbridge                         Amazon EventBridge
+[INFO] Ô£¼ quarkus-amazon-iam                                 Amazon IAM
+[INFO] Ô£¼ quarkus-amazon-inspector                           Amazon Inspector
+[INFO] Ô£¼ quarkus-amazon-kinesis                             Amazon Kinesis
+[INFO] Ô£¼ quarkus-amazon-kms                                 Amazon KMS
+[INFO] Ô£¼ quarkus-amazon-lambda                              AWS Lambda
+[INFO] Ô£¼ quarkus-amazon-lambda                              Amazon Lambda
+[INFO] Ô£¼ quarkus-amazon-lambda-http                         AWS Lambda HTTP
+[INFO] Ô£¼ quarkus-amazon-lambda-rest                         AWS Lambda Gateway REST API
+[INFO] Ô£¼ quarkus-amazon-lambda-xray                         AWS Lambda X-Ray
+[INFO] Ô£¼ quarkus-amazon-s3                                  Amazon S3
+[INFO] Ô£¼ quarkus-amazon-s3-transfer-manager                 Amazon S3 Transfer Manager
+[INFO] Ô£¼ quarkus-amazon-secretsmanager                      Amazon Secrets Manager
+[INFO] Ô£¼ quarkus-amazon-ses                                 Amazon SES
+[INFO] Ô£¼ quarkus-amazon-sfn                                 Amazon SFN
+[INFO] Ô£¼ quarkus-amazon-sns                                 Amazon SNS
+[INFO] Ô£¼ quarkus-amazon-sqs                                 Amazon SQS
+[INFO] Ô£¼ quarkus-amazon-ssm                                 Amazon SSM
+[INFO] Ô£¼ quarkus-amazon-sts                                 Amazon STS
+[INFO]   quarkus-antivirus                                  Antivirus
+[INFO] Ô£¼ quarkus-apicurio-registry-avro                     Apicurio Registry - Avro
+[INFO] Ô£¼ quarkus-apicurio-registry-json-schema              Apicurio Registry - Json Schema
+[INFO]   quarkus-apistax                                    APIstax
+[INFO]   quarkus-artemis-core                               Artemis Core
+[INFO]   quarkus-artemis-jms                                Artemis JMS
+[INFO]   quarkus-asyncapi                                   AsyncAPI
+[INFO]   quarkus-asyncapi-scanner                           AsyncAPI Scanner
+[INFO]   quarkus-authzed-client                             Authzed Client
+[INFO] Ô£¼ quarkus-avro                                       Apache Avro
+[INFO] Ô£¼ quarkus-awt                                        AWT
+[INFO]   quarkus-azure-app-configuration                    Quarkus Azure App Configuration
+[INFO] Ô£¼ quarkus-azure-functions                            Azure Functions
+[INFO] Ô£¼ quarkus-azure-functions-http                       Azure Functions HTTP
+[INFO]   quarkus-azure-keyvault                             Quarkus Support Azure Key Vault
+[INFO]   quarkus-azure-storage-blob                         Quarkus Support Azure Storage Blob
+[INFO]   quarkus-bon-jova                                   Bon Jova ­ƒÄ©
+[INFO]   quarkus-bucket4j                                   Bucket4j
+[INFO] Ô£¼ quarkus-cache                                      Cache
+[INFO] Ô£¼ quarkus-config-consul                              Consul Config
+[INFO]   quarkus-config-hocon                               HOCON Config
+[INFO]   quarkus-config-jdbc                                Config JDBC
+[INFO] Ô£¼ quarkus-config-yaml                                YAML Configuration
+[INFO] Ô£¼ quarkus-confluent-registry-avro                    Confluent Schema Registry - Avro
+[INFO] Ô£¼ quarkus-confluent-registry-json-schema             Confluent Schema Registry - Json Schema
+[INFO] Ô£¼ quarkus-container-image-buildpack                  Container Image Buildpack
+[INFO] Ô£¼ quarkus-container-image-docker                     Container Image Docker
+[INFO] Ô£¼ quarkus-container-image-jib                        Container Image Jib
+[INFO] Ô£¼ quarkus-container-image-openshift                  Container Image OpenShift
+[INFO] Ô£¼ quarkus-container-image-podman                     Container Image Podman
+[INFO]   quarkus-cucumber                                   Cucumber
+[INFO] Ô£¼ quarkus-cxf                                        Quarkus CXF
+[INFO] Ô£¼ quarkus-cxf-integration-tracing-opentelemetry      Quarkus CXF OpenTelemetry
+[INFO] Ô£¼ quarkus-cxf-rt-features-metrics                    Quarkus CXF Metrics
+[INFO] Ô£¼ quarkus-cxf-rt-transports-http-hc5                 Quarkus CXF Transports HTTP Async
+[INFO] Ô£¼ quarkus-cxf-rt-ws-rm                               Quarkus CXF WS-ReliableMessaging
+[INFO] Ô£¼ quarkus-cxf-rt-ws-security                         Quarkus CXF WS-Security
+[INFO] Ô£¼ quarkus-cxf-santuario-xmlsec                       Santuario XML Security
+[INFO] Ô£¼ quarkus-cxf-services-sts                           Quarkus CXF STS
+[INFO] Ô£¼ quarkus-cxf-xjc-plugins                            CXF XJC Plugins
+[INFO]   quarkus-dapr                                       Dapr
+[INFO]   quarkus-dashbuilder                                Dashbuilder
+[INFO]   quarkus-doma                                       Doma - Database access framework
+[INFO]   quarkus-easy-retrofit                              Easy Retrofit
+[INFO] Ô£¼ quarkus-elasticsearch-java-client                  Elasticsearch Java Client
+[INFO]   quarkus-elasticsearch-reactive                     Elasticsearch Reactive
+[INFO] Ô£¼ quarkus-elasticsearch-rest-client                  Elasticsearch REST client
+[INFO] Ô£¼ quarkus-elytron-security-jdbc                      Elytron Security JDBC
+[INFO] Ô£¼ quarkus-elytron-security-ldap                      Elytron Security LDAP Realm
+[INFO] Ô£¼ quarkus-elytron-security-oauth2                    Elytron Security OAuth 2.0
+[INFO] Ô£¼ quarkus-elytron-security-properties-file           Elytron Security Properties File
+[INFO]   quarkus-file-vault                                 File Vault Credentials Provider
+[INFO] Ô£¼ quarkus-flyway                                     Flyway
+[INFO]   quarkus-freemarker                                 Freemarker
+[INFO] Ô£¼ quarkus-funqy-amazon-lambda                        Funqy AWS Lambda Binding
+[INFO] Ô£¼ quarkus-funqy-google-cloud-functions               Funqy Google Cloud Functions
+[INFO] Ô£¼ quarkus-funqy-http                                 Funqy HTTP Binding
+[INFO] Ô£¼ quarkus-funqy-knative-events                       Funqy Knative Events Binding
+[INFO]   quarkus-fx                                         FX
+[INFO]   quarkus-github-action                              GitHub Action
+[INFO]   quarkus-github-api                                 GitHub API
+[INFO]   quarkus-github-app                                 GitHub App
+[INFO]   quarkus-github-app-command-airline                 GitHub App Command Airline
+[INFO] Ô£¼ quarkus-google-cloud-bigquery                      Google Cloud Bigquery
+[INFO] Ô£¼ quarkus-google-cloud-bigtable                      Google Cloud Bigtable
+[INFO] Ô£¼ quarkus-google-cloud-firebase-admin                Google Cloud Firebase Admin
+[INFO] Ô£¼ quarkus-google-cloud-firestore                     Google Cloud Firestore
+[INFO] Ô£¼ quarkus-google-cloud-functions                     Google Cloud Functions
+[INFO] Ô£¼ quarkus-google-cloud-functions-http                Google Cloud Functions HTTP
+[INFO] Ô£¼ quarkus-google-cloud-logging                       Google Cloud Logging
+[INFO] Ô£¼ quarkus-google-cloud-pubsub                        Google Cloud Pubsub
+[INFO] Ô£¼ quarkus-google-cloud-secret-manager                Google Cloud Secret Manager
+[INFO] Ô£¼ quarkus-google-cloud-spanner                       Google Cloud Spanner
+[INFO] Ô£¼ quarkus-google-cloud-storage                       Google Cloud Storage
+[INFO]   quarkus-groovy                                     Groovy
+[INFO]   quarkus-groovy-hibernate-orm-panache               Hibernate ORM with Panache in Groovy
+[INFO]   quarkus-groovy-hibernate-reactive-panache          Hibernate Reactive with Panache in Groovy
+[INFO]   quarkus-groovy-jaxb                                Groovy JAXB
+[INFO]   quarkus-groovy-junit5                              Groovy JUnit 5 for integration tests
+[INFO] Ô£¼ quarkus-grpc                                       gRPC
+[INFO] Ô£¼ quarkus-hal                                        Hypertext Application Language (HAL)
+[INFO]   quarkus-helm                                       Quarkus - Helm
+[INFO] Ô£¼ quarkus-hibernate-envers                           Hibernate Envers
+[INFO] Ô£¼ quarkus-hibernate-orm                              Hibernate ORM
+[INFO] Ô£¼ quarkus-hibernate-orm-panache                      Hibernate ORM with Panache
+[INFO] Ô£¼ quarkus-hibernate-orm-panache-kotlin               Hibernate ORM with Panache and Kotlin
+[INFO] Ô£¼ quarkus-hibernate-orm-rest-data-panache            REST resources for Hibernate ORM with Panache
+[INFO] Ô£¼ quarkus-hibernate-reactive                         Hibernate Reactive
+[INFO] Ô£¼ quarkus-hibernate-reactive-panache                 Hibernate Reactive with Panache
+[INFO] Ô£¼ quarkus-hibernate-reactive-panache-kotlin          Hibernate Reactive Panache Kotlin
+[INFO] Ô£¼ quarkus-hibernate-reactive-rest-data-panache       REST resources for Hibernate Reactive with Panache
+[INFO] Ô£¼ quarkus-hibernate-search-orm-elasticsearch         Hibernate Search + Elasticsearch
+[INFO]   quarkus-hibernate-search-orm-elasticsearch-aws     Hibernate Search + Elasticsearch - AWS authentication and request signing
+[INFO] Ô£¼ quarkus-hibernate-search-orm-outbox-polling        Hibernate Search Coordination with Outbox Polling
+[INFO] Ô£¼ quarkus-hibernate-search-standalone-elasticsearch  Hibernate Search Standalone + Elasticsearch
+[INFO]   quarkus-hibernate-types                            Hibernate Types
+[INFO] Ô£¼ quarkus-hibernate-validator                        Hibernate Validator
+[INFO]   quarkus-hilla                                      Quarkus Hilla Extension
+[INFO]   quarkus-hilla-react                                Quarkus Hilla React Extension
+[INFO]   quarkus-hivemq-client                              Quarkus - HiveMQ Client
+[INFO] Ô£¼ quarkus-infinispan-cache                           Infinispan Cache
+[INFO] Ô£¼ quarkus-infinispan-client                          Infinispan Client
+[INFO] Ô£¼ quarkus-info                                       Info
+[INFO]   quarkus-ironjacamar                                IronJacamar (JCA)
+[INFO]   quarkus-itext                                      iText
+[INFO] Ô£¼ quarkus-jackson                                    Jackson
+[INFO]   quarkus-jackson-jq                                 Jackson Jq
+[INFO] Ô£¼ quarkus-jacoco                                     Jacoco - Code Coverage
+[INFO]   quarkus-java-embedded-framework                    Java Embedded Framework
+[INFO] Ô£¼ quarkus-jaxb                                       JAXB
+[INFO]   quarkus-jberet                                     JBeret - Batch Processing
+[INFO]   quarkus-jberet-rest                                JBeret - REST
+[INFO]   quarkus-jdbc-clickhouse                            JDBC Driver - Clickhouse
+[INFO] Ô£¼ quarkus-jdbc-db2                                   JDBC Driver - DB2
+[INFO] Ô£¼ quarkus-jdbc-derby                                 JDBC Driver - Derby
+[INFO] Ô£¼ quarkus-jdbc-h2                                    JDBC Driver - H2
+[INFO] Ô£¼ quarkus-jdbc-mariadb                               JDBC Driver - MariaDB
+[INFO] Ô£¼ quarkus-jdbc-mssql                                 JDBC Driver - Microsoft SQL Server
+[INFO] Ô£¼ quarkus-jdbc-mysql                                 JDBC Driver - MySQL
+[INFO] Ô£¼ quarkus-jdbc-oracle                                JDBC Driver - Oracle
+[INFO] Ô£¼ quarkus-jdbc-postgresql                            JDBC Driver - PostgreSQL
+[INFO]   quarkus-jdbc-sqlite                                JDBC Driver - Sqlite
+[INFO]   quarkus-jdbi                                       Jdbi Quarkus - Runtime
+[INFO] Ô£¼ quarkus-jfr                                        Java Flight Recorder (JFR)
+[INFO]   quarkus-jgit                                       JGit
+[INFO]   quarkus-jgrapht                                    JGraphT
+[INFO]   quarkus-jnosql-document-mongodb                    JNoSQL Document MongoDB
+[INFO]   quarkus-jobrunr                                    JobRunr
+[INFO]   quarkus-jooq                                       Quarkus jOOQ - Runtime
+[INFO]   quarkus-jpastreamer                                JPAStreamer
+[INFO]   quarkus-jsch                                       JSch
+[INFO] Ô£¼ quarkus-jsonb                                      JSON-B
+[INFO] Ô£¼ quarkus-jsonp                                      JSON-P
+[INFO] Ô£¼ quarkus-kafka-client                               Apache Kafka Client
+[INFO] Ô£¼ quarkus-kafka-streams                              Apache Kafka Streams
+[INFO]   quarkus-kafka-streams-processor                    Kafka Streams Processor
+[INFO]   quarkus-kerberos                                   Kerberos
+[INFO] Ô£¼ quarkus-keycloak-admin-rest-client                 Keycloak Admin REST Client
+[INFO] Ô£¼ quarkus-keycloak-admin-resteasy-client             Keycloak Admin RESTEasy Client
+[INFO] Ô£¼ quarkus-keycloak-authorization                     Keycloak Authorization
+[INFO] Ô£¼ quarkus-kind                                       Kind
+[INFO]   quarkus-kiota                                      Quarkus Kiota
+[INFO] Ô£¼ quarkus-kotlin                                     Kotlin
+[INFO] Ô£¼ quarkus-kubernetes                                 Kubernetes
+[INFO] Ô£¼ quarkus-kubernetes-client                          Kubernetes Client
+[INFO] Ô£¼ quarkus-kubernetes-config                          Kubernetes Config
+[INFO] Ô£¼ quarkus-kubernetes-service-binding                 Kubernetes Service Binding
+[INFO]   quarkus-langchain4j-azure-openai                   LangChain4j Azure OpenAI
+[INFO]   quarkus-langchain4j-chroma                         LangChain4j Chroma
+[INFO]   quarkus-langchain4j-core                           LangChain4j
+[INFO]   quarkus-langchain4j-easy-rag                       LangChain4j Easy RAG
+[INFO]   quarkus-langchain4j-hugging-face                   LangChain4j Hugging Face
+[INFO]   quarkus-langchain4j-infinispan                     LangChain4j Infinispan embedding store
+[INFO]   quarkus-langchain4j-milvus                         LangChain4j Milvus embedding store
+[INFO]   quarkus-langchain4j-mistral-ai                     LangChain4j Mistral AI
+[INFO]   quarkus-langchain4j-neo4j                          Quarkus LangChain4j - Neo4j embedding store - Runtime
+[INFO]   quarkus-langchain4j-ollama                         LangChain4j Ollama
+[INFO]   quarkus-langchain4j-openai                         LangChain4j OpenAI
+[INFO]   quarkus-langchain4j-pgvector                       Quarkus LangChain4j pgvector embedding store
+[INFO]   quarkus-langchain4j-pinecone                       LangChain4j Pinecone embedding store
+[INFO]   quarkus-langchain4j-qdrant                         LangChain4j Qdrant embedding store
+[INFO]   quarkus-langchain4j-redis                          LangChain4j Redis embedding store
+[INFO] Ô£¼ quarkus-liquibase                                  Liquibase
+[INFO] Ô£¼ quarkus-liquibase-mongodb                          Liquibase MongoDB
+[INFO] Ô£¼ quarkus-load-shedding                              Load Shedding
+[INFO]   quarkus-logging-cloudwatch                         Logging Cloudwatch
+[INFO] Ô£¼ quarkus-logging-gelf                               Logging GELF
+[INFO] Ô£¼ quarkus-logging-json                               Logging JSON
+[INFO]   quarkus-logging-json                               Logging JSON Jackson
+[INFO]   quarkus-logging-logback                            Logging Logback
+[INFO]   quarkus-logging-manager                            Logging Manager
+[INFO]   quarkus-logging-sentry                             Logging Sentry
+[INFO]   quarkus-logging-splunk                             Logging Splunk
+[INFO]   quarkus-lucene                                     Lucene
+[INFO] Ô£¼ quarkus-mailer                                     Mailer
+[INFO]   quarkus-mailpit                                    Mailpit
+[INFO]   quarkus-maven-resolver                             Maven Resolver
+[INFO] Ô£¼ quarkus-messaging                                  Messaging
+[INFO] Ô£¼ quarkus-messaging-amqp                             Messaging - AMQP Connector
+[INFO] Ô£¼ quarkus-messaging-kafka                            Messaging - Kafka Connector
+[INFO] Ô£¼ quarkus-messaging-mqtt                             Messaging - MQTT Connector
+[INFO] Ô£¼ quarkus-messaging-pulsar                           Messaging - Pulsar Connector
+[INFO] Ô£¼ quarkus-messaging-rabbitmq                         Messaging - RabbitMQ Connector
+[INFO]   quarkus-microcks                                   Microcks
+[INFO] Ô£¼ quarkus-micrometer                                 Micrometer metrics
+[INFO]   quarkus-micrometer-registry-azure-monitor          Micrometer registry - Azure Monitor
+[INFO]   quarkus-micrometer-registry-datadog                Micrometer registry - Datadog
+[INFO]   quarkus-micrometer-registry-jmx                    Micrometer registry - JMX
+[INFO] Ô£¼ quarkus-micrometer-registry-prometheus             Micrometer Registry Prometheus
+[INFO]   quarkus-micrometer-registry-signalfx               Micrometer registry - SignalFX
+[INFO]   quarkus-micrometer-registry-stackdriver            Micrometer registry - Stackdriver
+[INFO]   quarkus-micrometer-registry-statsd                 Micrometer registry - StatsD
+[INFO]   quarkus-microprofile                               Microprofile
+[INFO] Ô£¼ quarkus-minikube                                   Minikube
+[INFO]   quarkus-minio                                      Minio Client extension
+[INFO]   quarkus-moneta                                     Moneta
+[INFO] Ô£¼ quarkus-mongodb-client                             MongoDB client
+[INFO] Ô£¼ quarkus-mongodb-panache                            MongoDB with Panache
+[INFO] Ô£¼ quarkus-mongodb-panache-kotlin                     MongoDB with Panache for Kotlin
+[INFO] Ô£¼ quarkus-mongodb-rest-data-panache                  REST resources for MongoDB with Panache
+[INFO]   quarkus-morphia                                    Morphia
+[INFO] Ô£¼ quarkus-mutiny                                     Mutiny
+[INFO]   quarkus-mybatis                                    MyBatis SQL Mapper
+[INFO]   quarkus-mybatis-plus                               MyBatis Plus
+[INFO] Ô£¼ quarkus-narayana-jta                               Narayana JTA - Transaction manager
+[INFO] Ô£¼ quarkus-narayana-lra                               Narayana LRA - LRA Participant Support
+[INFO] Ô£¼ quarkus-narayana-stm                               Narayana STM - Software Transactional Memory
+[INFO]   quarkus-neo4j                                      Neo4j client
+[INFO]   quarkus-ngrok                                      Ngrok
+[INFO] Ô£¼ quarkus-observability-devservices                  Quarkus - Observability Dev Services
+[INFO] Ô£¼ quarkus-oidc                                       OpenID Connect
+[INFO] Ô£¼ quarkus-oidc-client                                OpenID Connect Client
+[INFO] Ô£¼ quarkus-oidc-client-graphql                        OpenID Connect Client integration for GraphQL client
+[INFO] Ô£¼ quarkus-oidc-db-token-state-manager                OpenID Connect Database Token State Manager
+[INFO]   quarkus-oidc-proxy                                 OpenID Connect Proxy
+[INFO]   quarkus-omnifaces                                  OmniFaces
+[INFO]   quarkus-openapi-generator                          OpenAPI Generator - REST Client Generator
+[INFO]   quarkus-opencv                                     OpenCV
+[INFO]   quarkus-openfga-client                             OpenFGA Client
+[INFO] Ô£¼ quarkus-openshift                                  OpenShift
+[INFO] Ô£¼ quarkus-openshift-client                           OpenShift Client
+[INFO] Ô£¼ quarkus-opentelemetry                              OpenTelemetry
+[INFO] Ô£¼ quarkus-operator-sdk                               Operator SDK
+[INFO] Ô£¼ quarkus-operator-sdk-bundle-generator              Operator SDK - OLM Bundle Generator
+[INFO]   quarkus-pact-consumer                              Pact consumer
+[INFO]   quarkus-pact-provider                              Pact Provider
+[INFO]   quarkus-pdfbox                                     Apache PDFBox
+[INFO] Ô£¼ quarkus-picocli                                    Picocli
+[INFO]   quarkus-poi                                        Apache POI
+[INFO]   quarkus-pooled-jms                                 Messaginghub Pooled JMS
+[INFO]   quarkus-prettytime                                 PrettyTime
+[INFO]   quarkus-primefaces                                 PrimeFaces
+[INFO] Ô£¼ quarkus-qpid-jms                                   AMQP 1.0 JMS client - Apache Qpid JMS
+[INFO] Ô£¼ quarkus-quartz                                     Quartz
+[INFO]   quarkus-quinoa                                     Quinoa
+[INFO] Ô£¼ quarkus-qute                                       Qute
+[INFO] Ô£¼ quarkus-qute-web                                   Qute Web
+[INFO]   quarkus-rabbitmq-client                            RabbitMQ Client
+[INFO] Ô£¼ quarkus-reactive-db2-client                        Reactive DB2 client
+[INFO]   quarkus-reactive-messaging-http                    Reactive HTTP and WebSocket Connector
+[INFO]   quarkus-reactive-messsaging-nats-jetstream         Reactive Messsaging Nats Jetstream
+[INFO] Ô£¼ quarkus-reactive-mssql-client                      Reactive MS SQL client
+[INFO] Ô£¼ quarkus-reactive-mysql-client                      Reactive MySQL client
+[INFO] Ô£¼ quarkus-reactive-oracle-client                     Reactive Oracle client
+[INFO] Ô£¼ quarkus-reactive-pg-client                         Reactive PostgreSQL client
+[INFO] Ô£¼ quarkus-reactive-routes                            Reactive Routes
+[INFO] Ô£¼ quarkus-redis-cache                                Redis Cache
+[INFO] Ô£¼ quarkus-redis-client                               Redis Client
+[INFO]   quarkus-renarde                                    Renarde
+[INFO] Ô£¼ quarkus-rest                                       REST
+[INFO] Ô£¼ quarkus-rest-client                                REST Client
+[INFO] Ô£¼ quarkus-rest-client-jackson                        REST Client Jackson
+[INFO] Ô£¼ quarkus-rest-client-jaxb                           REST Client JAXB
+[INFO] Ô£¼ quarkus-rest-client-jsonb                          REST Client JSON-B
+[INFO] Ô£¼ quarkus-rest-client-kotlin-serialization           REST Client Kotlin Serialization
+[INFO] Ô£¼ quarkus-rest-client-oidc-filter                    REST Client - OpenID Connect Filter
+[INFO] Ô£¼ quarkus-rest-client-oidc-token-propagation         REST Client - OpenID Connect Token Propagation
+[INFO] Ô£¼ quarkus-rest-csrf                                  REST - Cross-Site Request Forgery Prevention Filter
+[INFO] Ô£¼ quarkus-rest-jackson                               REST Jackson
+[INFO] Ô£¼ quarkus-rest-jaxb                                  REST JAXB
+[INFO] Ô£¼ quarkus-rest-jsonb                                 REST JSON-B
+[INFO] Ô£¼ quarkus-rest-kotlin-serialization                  REST Kotlin Serialization
+[INFO] Ô£¼ quarkus-rest-links                                 REST Links
+[INFO] Ô£¼ quarkus-rest-qute                                  REST Qute
+[INFO] Ô£¼ quarkus-resteasy                                   RESTEasy Classic
+[INFO] Ô£¼ quarkus-resteasy-client                            RESTEasy Classic's REST Client
+[INFO] Ô£¼ quarkus-resteasy-client-jackson                    RESTEasy Classic's REST Client Jackson
+[INFO] Ô£¼ quarkus-resteasy-client-jaxb                       RESTEasy Classic's REST Client JAXB
+[INFO] Ô£¼ quarkus-resteasy-client-jsonb                      RESTEasy Classic's REST Client JSON-B
+[INFO] Ô£¼ quarkus-resteasy-client-mutiny                     RESTEasy Classic's REST Client Mutiny support
+[INFO] Ô£¼ quarkus-resteasy-client-oidc-filter                RESTEasy Client - OpenID Connect Filter
+[INFO] Ô£¼ quarkus-resteasy-client-oidc-token-propagation     RESTEasy Client - OpenID Connect Token Propagation
+[INFO] Ô£¼ quarkus-resteasy-jackson                           RESTEasy Classic Jackson
+[INFO] Ô£¼ quarkus-resteasy-jaxb                              RESTEasy Classic JAXB
+[INFO] Ô£¼ quarkus-resteasy-jsonb                             RESTEasy Classic JSON-B
+[INFO] Ô£¼ quarkus-resteasy-links                             RESTEasy Classic Links
+[INFO] Ô£¼ quarkus-resteasy-multipart                         RESTEasy Classic Multipart
+[INFO] Ô£¼ quarkus-resteasy-mutiny                            RESTEasy Classic Mutiny
+[INFO] Ô£¼ quarkus-resteasy-qute                              RESTEasy Classic Qute
+[INFO] Ô£¼ quarkus-scala                                      Scala
+[INFO]   quarkus-scala3                                     Scala 3
+[INFO] Ô£¼ quarkus-scheduler                                  Scheduler
+[INFO] Ô£¼ quarkus-security-jpa                               Security JPA
+[INFO] Ô£¼ quarkus-security-jpa-reactive                      Security Jakarta Persistence Reactive
+[INFO] Ô£¼ quarkus-security-webauthn                          Security WebAuthn
+[INFO]   quarkus-shardingsphere-jdbc                        Shardingsphere JDBC Driver
+[INFO] Ô£¼ quarkus-smallrye-context-propagation               SmallRye Context Propagation
+[INFO] Ô£¼ quarkus-smallrye-fault-tolerance                   SmallRye Fault Tolerance
+[INFO] Ô£¼ quarkus-smallrye-graphql                           SmallRye GraphQL
+[INFO] Ô£¼ quarkus-smallrye-graphql-client                    SmallRye GraphQL Client
+[INFO] Ô£¼ quarkus-smallrye-health                            SmallRye Health
+[INFO] Ô£¼ quarkus-smallrye-jwt                               SmallRye JWT
+[INFO] Ô£¼ quarkus-smallrye-jwt-build                         SmallRye JWT Build
+[INFO] Ô£¼ quarkus-smallrye-metrics                           SmallRye Metrics
+[INFO] Ô£¼ quarkus-smallrye-openapi                           SmallRye OpenAPI
+[INFO]   quarkus-smallrye-opentracing                       SmallRye OpenTracing
+[INFO] Ô£¼ quarkus-smallrye-stork                             SmallRye Stork
+[INFO] Ô£¼ quarkus-spring-boot-properties                     Quarkus Extension for Spring Boot properties
+[INFO] Ô£¼ quarkus-spring-cache                               Quarkus Extension for Spring Cache API
+[INFO] Ô£¼ quarkus-spring-cloud-config-client                 Quarkus Extension for Spring Cloud Config Client
+[INFO] Ô£¼ quarkus-spring-data-jpa                            Quarkus Extension for Spring Data JPA API
+[INFO] Ô£¼ quarkus-spring-data-rest                           Quarkus Extension for Spring Data REST
+[INFO] Ô£¼ quarkus-spring-di                                  Quarkus Extension for Spring DI API
+[INFO] Ô£¼ quarkus-spring-scheduled                           Quarkus Extension for Spring Scheduled
+[INFO] Ô£¼ quarkus-spring-security                            Quarkus Extension for Spring Security API
+[INFO] Ô£¼ quarkus-spring-web                                 Quarkus Extension for Spring Web API
+[INFO]   quarkus-systemd-notify                             Systemd Notify
+[INFO]   quarkus-tekton-client                              Tekton Client
+[INFO]   quarkus-temporal                                   Temporal
+[INFO]   quarkus-tika                                       Apache Tika
+[INFO] Ô£¼ quarkus-undertow                                   Undertow Servlet
+[INFO]   quarkus-unleash                                    Unleash
+[INFO] Ô£¼ quarkus-vault                                      Vault
+[INFO] Ô£¼ quarkus-vertx                                      Eclipse Vert.x
+[INFO] Ô£¼ quarkus-vertx-graphql                              Eclipse Vert.x GraphQL
+[INFO]   quarkus-web-bundler                                Web Bundler
+[INFO] Ô£¼ quarkus-web-dependency-locator                     Web Dependency Locator
+[INFO] Ô£¼ quarkus-websockets                                 WebSockets
+[INFO] Ô£¼ quarkus-websockets-client                          WebSockets Client
+[INFO] Ô£¼ quarkus-websockets-next                            WebSockets Next
+[INFO]   quarkus-wiremock                                   WireMock
+[INFO]   quarkus-zanzibar                                   Zanzibar
+[INFO]   quarkus-zanzibar-authzed                           Zanzibar Authzed
+[INFO]   quarkus-zanzibar-openfga                           Zanzibar OpenFGA
+[INFO]   quarkus-zeebe                                      Zeebe
+[INFO]   quarkus-zookeeper                                  Zookeeper
+[INFO]   timefold-solver-quarkus                            Timefold
+[INFO]   timefold-solver-quarkus-benchmark                  Timefold benchmark
+[INFO]   timefold-solver-quarkus-jackson                    Timefold Jackson
+[INFO]   timefold-solver-quarkus-jsonb                      Timefold JSON-B
+[INFO]   vaadin-quarkus-extension                           Vaadin Flow
+[INFO]
+[INFO] To get more information, append `-Dformat=full` to your command line.
+[INFO]
+[INFO] To list only extensions from specific category, append `-Dcategory="categoryId"` to your command line.
+[INFO]
+[INFO] Add an extension to your project by adding the dependency to your pom.xml or use `./mvnw quarkus:add-extension -Dextensions="artifactId"`
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.845 s
+[INFO] Finished at: 2024-09-04T22:07:57+01:00
+[INFO] ------------------------------------------------------------------------
+
+E:\Projects\BAE\Quarkus\SAM\scmWebForms>
