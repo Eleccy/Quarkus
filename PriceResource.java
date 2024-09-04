@@ -82,7 +82,7 @@ public class PriceResource {
     /*
         API for SCMWebForms SendXML used primarily for TestComplete or any other App to send an XML message
         example URL to send a message:
-            localhost:8080/api/v1/SendXML?messageName="message Name"&messageXml="Auto XML Message which could be really big string"
+            localhost:8080/api/v1/SendXML?messageName="message Name"&filenameXml="Auto XML Message which could be really big string"
     */
     @GET
     @Path("SendXML")
