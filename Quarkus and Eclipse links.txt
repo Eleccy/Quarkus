@@ -1,0 +1,13 @@
+INSTALL QUARKUS TOOL IN ECLIPSE...
+Open Eclipse IDE
+Select Help then Eclipse Marketplace
+Search for "quarkus" in the Find box
+Click Install
+Check the I accept the terms of the license agreements checkbox
+Click Finish
+Click OK in the Unsigned content dialog
+Restart Eclipse IDE 
+
+
+FIRST QUARKUS PROJECT IN ECLIPSE...
+https://developers.redhat.com/blog/2019/05/09/create-your-first-quarkus-project-with-eclipse-ide-red-hat-codeready-studio#
