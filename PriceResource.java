@@ -21,6 +21,13 @@ import jakarta.ws.rs.core.MediaType;
 import org.apache.commons.configuration2.FileBasedConfiguration;
 import org.apache.commons.configuration.Configuration;
 
+import com.nanotec.jhhjarpackage.jhhjarclass;
+
+
+
+import io.quarkus.qute.TemplateInstance;
+import io.quarkus.qute.Template;
+
 /*
     Remember to go to C:\artemis and type "artemis run" to run server.
     https://www.w3schools.com/css/css3_buttons.asp
@@ -65,6 +72,7 @@ public class PriceResource {
         } else {
             System.out.println("Don't validate the message");            
         }
+        jhhjarclass.printHello();
     }
 
     @GET
@@ -81,6 +89,21 @@ public class PriceResource {
     public String lastMessageXML() {
         System.out.println("LMX="+lastMessageType);
         return lastMessageXML;
+    }
+    
+    
+    
+    
+    @Inject
+    Template markdown;
+
+    @GET  
+    @Path("markdown")
+//    @Consumes(MediaType.TEXT_HTML)                         
+    @Produces(MediaType.TEXT_HTML)
+//    public TemplateInstance markdown() {
+    public String markdown() {
+        return (markdown.render()); 
     }
     
     
